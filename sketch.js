@@ -7,7 +7,7 @@ function setup() {
     createCanvas(800, 400);
     for(let i = 0; i < columns; i ++) 
         values.push(Math.ceil(random(height - 1)));
-
+    frameRate(10);
     // Bubble Sort
     // for(let i = 0; i < values.length; i ++) {
     //     for(let j = 0; j < values.length - i - 1; j ++) {
